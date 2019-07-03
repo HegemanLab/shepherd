@@ -1,1 +1,1 @@
-# shepherd
+# shepherd-thermo-QE
