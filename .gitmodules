@@ -1,0 +1,6 @@
+[submodule "shepherd-thermo-QE"]
+	path = thermo-QE
+	url = https://github.com/HegemanLab/shepherd-thermo-QE
+[submodule "shepherd-bruker-amazonSL"]
+	path = bruker-amazonSL
+	url = git@github.com:HegemanLab/shepherd-bruker-amazonSL.git
