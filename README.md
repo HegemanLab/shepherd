@@ -11,7 +11,17 @@ The goal is to have real-time and historical monitoring of the lab's instrument 
 
 [Grafana](https://grafana.com/)
 
-## Installation
-
+## Installation (WIP)
+1. Install Grafana, InfluxDB, and Collectd
+```
+apt-get install -y software-properties-common
+add-apt-repository "deb https://packages.grafana.com/oss/deb stable main"
+wget -q -O - https://packages.grafana.com/gpg.key | apt-key add -
+apt-get update
+apt upgrade
+apt install influxdb grafana collectd
+```
+2. Place InfluxDB config file in LOCATION
+3. Place types.db file in LOCATION
 ## References
 
