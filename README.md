@@ -11,7 +11,7 @@ The goal is to have real-time and historical monitoring of the lab's instrument 
 
 [Grafana](https://grafana.com/)
 
-## Installation (WIP)
+## Installation
 1. Install Grafana, InfluxDB, and Collectd
 ```
 apt-get install -y software-properties-common
