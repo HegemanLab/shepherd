@@ -21,7 +21,8 @@ apt-get update
 apt upgrade
 apt install influxdb grafana collectd
 ```
-2. Place InfluxDB config file in LOCATION
-3. Place types.db file in LOCATION
+2. Place influxdb.conf from this repository in /etc/influxdb 
+3. Place types.db from this repository in /etc/share/collectd
+4. Place collectd.conf from this repository in /etc/collectd 
 ## References
 
