@@ -20,11 +20,19 @@ The goal is to have real-time and historical monitoring of the lab's instrument 
 ## Installation
 1. Install Grafana, InfluxDB, and Collectd
 ```
+# install dependencies
 apt-get install -y software-properties-common
+
+# add Grafana repo
 add-apt-repository "deb https://packages.grafana.com/oss/deb stable main"
+
+# add Grafana repo key and add it to apt-key
 wget -q -O - https://packages.grafana.com/gpg.key | apt-key add -
+
+# update apt's cache
 apt-get update
-apt upgrade
+
+# install
 apt install influxdb grafana collectd
 ```
 2. Place influxdb.conf from this repository in `/etc/influxdb`
