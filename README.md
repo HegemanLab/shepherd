@@ -47,3 +47,14 @@ apt install influxdb grafana collectd
 ## References
 
 ![Grafana - Installing on Debian / Ubuntu](https://grafana.com/docs/installation/debian/)
+## Dashboards
+
+Why useful
+
+### Bruker AmazonSL MS
+
+### Themo QE MS
+
+### Themo QE MS Temp
+
+### (Collectd)
