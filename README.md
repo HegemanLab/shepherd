@@ -17,7 +17,7 @@ The goal is to have real-time and historical monitoring of the lab's instrument 
 
 [Grafana](https://grafana.com/)
 
-## Installation
+## Installation on Debian/Ubuntu
 1. Install Grafana, InfluxDB, and Collectd
 ```
 # install dependencies
@@ -46,3 +46,4 @@ apt install influxdb grafana collectd
 ```
 ## References
 
+![Grafana - Installing on Debian / Ubuntu](https://grafana.com/docs/installation/debian/)
